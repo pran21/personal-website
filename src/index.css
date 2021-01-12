@@ -1,3 +1,62 @@
+*{
+  margin: 0;
+  padding: 9;
+  box-sizing: border-box;
+}
+
+#nav {
+  width: 100%;
+  float: left;
+  margin: 7px 7px 2em 7px;
+  padding: 0;
+  list-style: none;
+}
+
+#nav li {
+  float: left;
+}
+
+#nav li:hover {
+  background-color: gray;
+}
+
+#nav li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 20px;;
+  color: white;
+}
+
+.centerdescription {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 50%;
+  padding: 50px;
+}
+
+#title-name {
+  font-size: 60px;
+  font-weight: normal;
+  color: white;
+}
+
+#short-description {
+  font-size: 24px;
+  font-weight: normal;
+  color: white;
+}
+
+#main-background {
+  background: url('./assets/background_img.JPG') no-repeat center center;
+}
+
+#bottom-section {
+  margin: 0 0 0 0;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
