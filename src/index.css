@@ -7,7 +7,7 @@
 #nav {
   width: 100%;
   float: left;
-  margin: 7px 7px 2em 7px;
+  margin: 7px 7px 0 7px;
   padding: 0;
   list-style: none;
 }
@@ -17,24 +17,28 @@
 }
 
 #nav li:hover {
-  background-color: gray;
+  background-color: rgb(54, 52, 52);
 }
 
 #nav li a {
   display: block;
-  padding: 10px 20px;
+  padding: 10px 40px;
   text-decoration: none;
   font-weight: normal;
   font-size: 20px;;
   color: white;
 }
 
-.centerdescription {
+#center-description {
   display: flex;
   flex-direction: column;
   margin: auto;
   width: 50%;
-  padding: 50px;
+  padding: 20px;
+}
+
+#scroll-arrow {
+  width: 100%;
 }
 
 #title-name {
@@ -43,19 +47,63 @@
   color: white;
 }
 
-#short-description {
+#socials {
+  display: flex;
+  justify-content: center;
+}
+
+#middle-section {
+  padding-top: 300px;
+}
+
+#socialicon {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.short-description {
   font-size: 24px;
   font-weight: normal;
   color: white;
 }
 
+.description {
+  margin: 2em 0px 2em 0px;
+}
+
 #main-background {
   background: url('./assets/background_img.JPG') no-repeat center center;
+  height: 100vh;
+}
+
+#top-section {
+  margin: 0 0 0 0;
 }
 
 #bottom-section {
   margin: 0 0 0 0;
 }
+
+.dark-mode {
+  padding: 30px;
+  background-color: rgb(27, 26, 26);
+  color: white;
+}
+
+#ventures-title {
+  margin: 10px;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+#ventures-list li {
+  padding: 1px;
+}
+
+#ventures {
+  padding: 30px;
+}
+
 
 body {
   margin: 0;
