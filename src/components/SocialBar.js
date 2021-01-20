@@ -7,7 +7,7 @@ import instagram_logo from '../assets/instagram.svg'
 function SocialIcon(props) {
         return (
             <div id='socialicon'>
-                <a href={props.href} target="_blank">
+                <a href={props.href} target="_blank" rel="noopener noreferrer">
                     <img src={props.image_src} alt={props.type} height={props.size} width={props.size}/>
                 </a>
             </div>

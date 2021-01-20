@@ -6,7 +6,7 @@ import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
-import { withStyles, makeStyles } from '@material-ui/core/styles';
+import { withStyles } from '@material-ui/core/styles';
 
 const StyledTableCell = withStyles((theme) => ({
     head: {
@@ -26,7 +26,7 @@ function getRow(row) {
     const updatedDateString = monthNames[updated.getMonth()] + " " + updated.getDate() + ", " + updated.getFullYear();
     return(
         <TableRow key={row.id}>
-                      <TableCell><a href={row.html_url} target='_blank'>{row.name}</a></TableCell>
+                      <TableCell><a href={row.html_url} target='_blank' rel="noopener noreferrer">{row.name}</a></TableCell>
                       <TableCell>{row.description}</TableCell>
                       <TableCell>{updatedDateString}</TableCell>
         </TableRow>

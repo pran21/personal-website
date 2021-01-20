@@ -25,15 +25,6 @@ export default class FetchGitHub extends React.Component {
         if (!this.state.repos.length) {
             return(<div>Unable to get repos</div>);
         }
-
-        const repoJsx = this.state.repos.map(repo=> (
-            <div key={repo.id}>
-                <div>{repo.name}</div>
-                <div>{repo.description}</div>
-                <div>{repo.updated_at}</div>
-                <div>{repo.html_url}</div>
-            </div>
-        ))
         
         return (
             <BasicTable data={this.state.repos}/>

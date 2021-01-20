@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 import arrow from '../assets/down_arrow.svg'
 import selectedArrow from '../assets/gray_down_arrow.svg'
 import SocialBar from '../components/SocialBar'
