@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import { NavLink, Switch, Route, BrowserRouter as Router } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import NavBar from './components/NavBar'
 import HomePage from './pages/HomePage'
 import ProjectsPage from './pages/ProjectsPage'

@@ -104,6 +104,9 @@
   padding: 30px;
 }
 
+.column-header {
+  font-weight: bold;
+}
 
 body {
   margin: 0;

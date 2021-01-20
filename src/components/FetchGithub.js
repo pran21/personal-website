@@ -1,4 +1,5 @@
 import React from 'react';
+import BasicTable from '../components/Table'
 
 export default class FetchGitHub extends React.Component {
     constructor(props) {
@@ -34,7 +35,9 @@ export default class FetchGitHub extends React.Component {
             </div>
         ))
         
-        return <div>{repoJsx}</div>
+        return (
+            <BasicTable data={this.state.repos}/>
+        );
 
     }
 }
